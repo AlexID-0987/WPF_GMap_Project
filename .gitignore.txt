@@ -1,0 +1,92 @@
+# ------------------------------
+# Visual Studio / .NET / WPF
+# ------------------------------
+
+# Папки користувача і кеші
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Кеш збірки
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Tt]emp/
+[Tt]empPE/
+
+# Папка тестів і логів
+TestResults/
+*.log
+*.tlog
+*.cache
+*.pdb
+
+# Налаштування локальної публікації
+*.publish.xml
+*.pubxml
+*.pubxml.user
+
+# Конфігурації користувача
+appsettings.*.json
+*.local.json
+
+# Папка з профілями Azure / IIS
+.publish/
+Properties/ServiceDependencies/
+Properties/ServiceReferences/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.tmp
+
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# Системні файли Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Backup файли
+*.bak
+*.swp
+*.tmp
+*.temp
+
+# Файли специфічні для Visual Studio
+*.dbmdl
+*.vsp
+*.vspscc
+*.vssscc
+*.sqlproj.user
+
+# Інші IDE
+*.iml
+
+# ------------------------------
+# Додатково для WPF
+# ------------------------------
+
+# Кеш WPF Designer
+*.g.cs
+*.g.i.cs
+
+# XAML компілятор
+*.baml
+
+# Output ClickOnce
+publish/
+
+# ------------------------------
+# End of .gitignore
+# ------------------------------
